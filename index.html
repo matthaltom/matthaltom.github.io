@@ -42,8 +42,8 @@
         <div class="mh-left-half col p-0 mx-0">
           <a href="/" class="logo-position"><img src="img/logo-matthew-haltom.svg" alt="Matthew Haltom"></a>
           <ul class="list-unstyled main-nav-mobile">
-            <li><a href="#about">About</a></li>
-            <li><a href="#casestudies">Case Studies</a></li>
+            <li><a data-scroll href="#about">About</a></li>
+            <li><a data-scroll href="#casestudies">Case Studies</a></li>
             <li><a class="typeform-share" href="https://matthaltom.typeform.com/to/nHWtP8" data-mode="drawer_right" data-hide-headers=true data-hide-footer=true data-submit-close-delay="0" target="_blank">Contact</a></li>
           </ul>
           <img src="img/home/matt-right-brain.png" class="right-brain" alt="right-brain">
@@ -51,8 +51,8 @@
         <div class="mh-right-half col p-0 mx-0">
           <nav>
             <ul class="list-unstyled main-nav">
-              <li><a href="#about">About</a></li>
-              <li><a href="#casestudies">Case Studies</a></li>
+              <li><a data-scroll href="#about">About</a></li>
+              <li><a data-scroll href="#casestudies">Case Studies</a></li>
               <li><a class="typeform-share" href="https://matthaltom.typeform.com/to/nHWtP8" data-mode="drawer_right" data-hide-headers=true data-hide-footer=true data-submit-close-delay="0" target="_blank">Contact</a></li>
             </ul>
           </nav>
@@ -280,5 +280,9 @@
     <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/dribbble-shots.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
   </body>
 </html>
