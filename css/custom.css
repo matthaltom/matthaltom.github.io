@@ -48,7 +48,6 @@ p {
 p.lead{
   font-size: 1.125em;
   font-family: 'Avenir Next', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
-  font-weight: 300;
 }
 ul,ol{
   font-size: 1em;
