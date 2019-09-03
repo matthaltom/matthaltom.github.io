@@ -327,7 +327,17 @@ header{
 .bg-pluck{background: #E2DBEA;}
 .bg-pluck .sub-color{color: #9260A5;}
 
+.nps-results-bg{
+  background: #E3F7F3 url(../img/casestudies/ramen/ramen-nps-results@2x.png) 90% bottom no-repeat;
+  background-size: 60%;
+}
 
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 768px) {
+  .nps-results-bg{
+    background-size: 80%;
+  }
+}
 
 /* Dribbble Shots */
 
