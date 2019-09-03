@@ -306,7 +306,7 @@ header{
 /* Case Studies */
 .case-study a{
   color: #4A4A4A;
-  text-decoration: underline;
+  text-decoration: none;
 }
 #casestudies .case-study{
 }
