@@ -10,12 +10,12 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #EBB599;
+  color: #D78E81;
   cursor: pointer;
 }
 a:hover,
 a:focus {
-  color: #D78E81;
+  color: #914034;
   cursor: pointer;
 }
 h1, h2, h3, h4, h5, h6 {  
